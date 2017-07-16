@@ -1,0 +1,46 @@
+# Site settings
+title: 冯永阁
+description: '可以让步，却不可以退缩，可以羞涩，却不可以软弱。'
+url: 'http://fengyongge.github.io' 
+baseurl: '/'
+blog_url: '/blog'
+google_analytics: 'UA-501066-1'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  
+  name: '冯永阁'
+  github_username:  fengyongge
+  weibo_id: 236101567 
+  email: fengyongge98@gmail.com
+  twitter_username: YongGeFeng
+  facebook_username: YongGe Feng
+ 
+
+  #linkedin_username:
+
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  syntax_highlighter: rouge
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'src']
