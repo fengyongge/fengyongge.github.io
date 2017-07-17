@@ -55,7 +55,7 @@
               <!-- weibo -->
               <li class="navigation__item">
                  <a href="http://weibo.com/{{ site.author.weibo_id }}" title="@{{ site.author.weibo_id }} on WeiBo" target="_blank">
-                  <i class="icon fa-weibo"></i>
+                  <i class="icon icon-weibo"></i>
                   <span class="label">WeiBo</span>
                 </a>
               </li>
